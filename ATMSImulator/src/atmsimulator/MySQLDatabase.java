@@ -24,8 +24,8 @@ public class MySQLDatabase {
         
         String driver = "com.mysql.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/atmDB";
-        String username = "root";
-        String password = "root";
+        String username = ""; // Fill in username.
+        String password = ""; // Fill in password.
         String tableName = "customers";
                 
         Connection connection = null;
